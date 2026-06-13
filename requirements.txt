@@ -1,0 +1,30 @@
+# =============================================================
+#  Tunisia Job Market Intelligence Platform
+#  requirements.txt — compatible Windows / Python 3.11+
+#  Install: pip install -r requirements.txt
+# =============================================================
+
+# ── Core (pre-built wheels, no compilation needed) ────────────
+pandas>=2.0.0
+numpy>=1.26.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# ── Database ──────────────────────────────────────────────────
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0        # binary = no compilation
+
+# ── Scraping ──────────────────────────────────────────────────
+selenium>=4.20.0
+webdriver-manager>=4.0.0
+fake-useragent>=1.5.0
+
+# ── AI (Ollama local) ─────────────────────────────────────────
+ollama>=0.2.1
+
+# ── Utils ─────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+schedule>=1.2.0
+nltk>=3.8.0
+scikit-learn>=1.4.0
